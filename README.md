@@ -263,7 +263,6 @@ In summary, Dependency security testing and analysis is critical for discovering
 
 ## Supply chain specific tools 
 
-The text highlights the vulnerability of supply chains to attacks and emphasizes the importance of libraries and continuous integration (CI) in ensuring the security of the final product.
 
 The use of libraries plays a significant role in the security of the final product, as libraries are a common target for attackers to inject malicious code. Therefore, it is crucial to carefully select and evaluate the libraries used in the supply chain to avoid any security loopholes.
 
@@ -284,7 +283,15 @@ Overall, the text emphasizes the importance of careful library selection, contin
 
 ## SAST
 
-Static code review tools working with source code and looking for known patterns and relationships of methods, variables, classes and libraries. SAST works with the raw code and usually not with build packages. 
+Static code analysis is a method of analyzing code without actually executing it. This is in contrast to dynamic code analysis, which involves analyzing code as it runs.
+
+Static code review tools scan the source code to identify issues such as coding errors, security vulnerabilities, and performance issues. The tools typically work by analyzing the syntax and structure of the code to identify potential problems. The analysis may involve examining variables, functions, and code flow to determine potential issues.
+
+In the context of security, static analysis tools are often referred to as Static Application Security Testing (SAST) tools. SAST tools work by analyzing the raw code to identify potential vulnerabilities. This is in contrast to Dynamic Application Security Testing (DAST) tools, which analyze the code as it runs.
+
+The text notes that SAST tools usually work with the raw code and not with build packages. This means that SAST tools analyze the code before it has been compiled or packaged into a final product. This is important because it allows the tools to identify potential vulnerabilities before they become part of the final product.
+
+Overall, the text describes how static code review tools work with source code to identify potential issues and vulnerabilities. SAST tools are a specific type of static analysis tool that focuses on identifying security vulnerabilities. By working with the raw code, SAST tools can identify potential issues before they become part of the final product.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
