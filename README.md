@@ -20,7 +20,64 @@ Take a look at links for detailed explanitation on DevSecOps:
 * [Synopsys definitions](https://www.synopsys.com/glossary/what-is-devsecops.html)
 * [Spacelift definitions](https://spacelift.io/blog/what-is-devsecops)
 
-# TOOLS for DevSecOps
+# Resources
+
+## Books
+Books focussed around DevSecOps, bringing the security focus up front.
+
+* [DevOpsSec](http://www.oreilly.com/webops-perf/free/devopssec.csp)
+* [Docker Securitiy - Quick Reference](https://binarymist.io/publication/docker-security/)
+* [Holistic Info-Sec for Web Developers](https://leanpub.com/b/holisticinfosecforwebdevelopers)
+* [Securing DevOps](https://securing-devops.com/book)
+* [The DevOps Handbook (Section VI)](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
+
+## Conferences
+A body of knowledge for combining DevOps and Security has been delivered via conferences and meetups.  This is a short list of the venues that have dedicated a portion of their agenda to it.
+
+* [AWS re:Inforce](https://reinforce.awsevents.com/)
+* [AWS re:Invent](https://reinvent.awsevents.com)
+* [DevSecCon](http://devseccon.com)
+* [DevOps Connect](http://www.devopsconnect.com/)
+* [DevOps Days](http://www.devopsdays.org/)
+* [Goto Conference](http://gotocon.com)
+* [IP Expo](http://www.ipexpoeurope.com/)
+* [ISACA Ireland](http://www.isaca.org/chapters5/Ireland/conference/pages/Agenda.aspx)
+* [RSA Conference](http://www.rsaconference.com)
+* [All Day DevOps](https://www.alldaydevops.com/)
+
+
+## Training
+DevSecOps requires an appetite for learning and agility to quickly acquire new skills.  We've collected these links to help you learn how to do DevSecOps with us.
+
+### Labs
+Labs are hands-on learning opportunities to grow your skills in Dev, Sec, and Ops.  All skills are useful and need to be grown so that you can have the empathy, knowledge and trade to operate DevSecOps style.
+
+* [DevSecOps Bootcamp](https://github.com/devsecops/bootcamp)
+* [Exercism](http://exercism.io/)
+* [Infoseclabs](http://www.infoseclabs.net)
+* [Infrastructure Monitoring](https://github.com/appsecco/defcon24-infra-monitoring-workshop)
+* [Pentester Lab](https://pentesterlab.com/exercises/)
+* [Vulnhub](https://www.vulnhub.com/)
+
+
+### Vulnerable Test Targets
+It's important to build up knowledge by learning how to break applications left vulnerable by security mistakes.  This section contains a list of vulnerable apps that can be deployed to learn what not to do.  These same apps can be made safe by remediating the intentional vulnerabilities to learn how to prevent attackers from gaining access to underlying infrastructure or data.
+
+* [Damn Vulnerable Web Application](https://github.com/ethicalhack3r/DVWA) (PHP/MySQL)
+* [LambHack](https://github.com/wickett/lambhack) (Lambda)
+* [Metasploitable](https://community.rapid7.com/docs/DOC-1875) (Linux)
+* [Mutillidae](http://www.irongeek.com/i.php?page=mutillidae/mutillidae-deliberately-vulnerable-php-owasp-top-10) (PHP)
+* [NodeGoat](https://github.com/owasp/nodegoat) (Node)
+* [OWASP Damn Vulnerable Serverless Application (DVSA)](https://github.com/owasp/dvsa) (AWS Serverless)
+* [OWASP Juice Shop](https://github.com/OWASP/glue) (NodeJS/Angular)
+* [RailsGoat](https://github.com/OWASP/railsgoat) (Rails)
+* [WebGoat](https://github.com/WebGoat/WebGoat) (Web App)
+* [WebGoat.Net](https://github.com/OWASP/WebGoat.NET) (.NET)
+* [WebGoatPHP](https://github.com/OWASP/OWASPWebGoatPHP) (PHP)
+
+
+
+# Tools and Links for DevSecOps
 
 ![img](imgs/devsecopslife.png)
 
