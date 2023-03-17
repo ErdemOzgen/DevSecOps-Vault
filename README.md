@@ -1,7 +1,7 @@
 # DevSecOps-Vault
 Collection of roadmaps, tools, best practice, resources about DevSecOps
 
-![gartner](./../imgs/gartner.png)
+![gartner](./imgs/gartner.png)
 # What is DevSecOps
 
 DevSecOps is an approach to software development that integrates security into the entire software development lifecycle. It combines the principles of DevOps with security to create a culture of security that permeates the entire development process.
