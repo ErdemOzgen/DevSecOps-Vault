@@ -20,6 +20,10 @@ Take a look at links for detailed explanitation on DevSecOps:
 * [Synopsys definitions](https://www.synopsys.com/glossary/what-is-devsecops.html)
 * [Spacelift definitions](https://spacelift.io/blog/what-is-devsecops)
 
+# DevSecOps Security Checklist
+
+## [Checklist Link](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf)
+* ![](https://about.gitlab.com/images/secure/security-diagram.svg)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
