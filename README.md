@@ -75,7 +75,16 @@ It's important to build up knowledge by learning how to break applications left 
 * [WebGoat.Net](https://github.com/OWASP/WebGoat.NET) (.NET)
 * [WebGoatPHP](https://github.com/OWASP/OWASPWebGoatPHP) (PHP)
 
-
+### Security of CI/CD
+ **DO NOT FORGET MANY DEVSECOPS PIPELINE SUFFER FROM SECURITY VULNEBILITIES**
+- Github Actions
+    1. [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
+    2. [Github Actions Security Best Practices](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5)
+    3. [GitHub Actions Security Best Practices [cheat sheet included]](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)
+- Jenkins
+    1. [Securing Jenkins](https://www.jenkins.io/doc/book/security/)
+    2. [Securing Jenkins CI Systems by SANS](https://www.sans.org/white-papers/36872/)
+    3. [DEPRECATED/chef-jenkins-hardening](https://github.com/dev-sec/chef-jenkins-hardening)
 
 # Tools and Links for DevSecOps
 
@@ -369,3 +378,11 @@ Event driven security help to drive, automate and execute tasks for security pro
 | **Camunda** | [https://github.com/camunda/camunda-bpm-platform](https://github.com/camunda/camunda-bpm-platform) | Workflow and process automation |![Camunda](https://img.shields.io/github/stars/camunda/camunda-bpm-platform?style=for-the-badge)| 
 | **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
 | **Faraday** | [https://github.com/infobyte/faraday](https://github.com/infobyte/faraday) | Security suite for Security Orchestration, vulnerability management and centralized information |![Faraday](https://img.shields.io/github/stars/infobyte/faraday) |
+
+#TODO: REFACTOR UNDER THESE SECTIONS
+
+## Monitoring
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+
+
