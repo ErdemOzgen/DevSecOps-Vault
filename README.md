@@ -22,8 +22,8 @@ Take a look at links for detailed explanitation on DevSecOps:
 
 # DevSecOps Security Checklist
 
+ ![checklist](./imgs/check.png)
 ## [Checklist Link](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf)
-* ![](https://about.gitlab.com/images/secure/security-diagram.svg)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
@@ -134,7 +134,8 @@ It's important to build up knowledge by learning how to break applications left 
 * [WebGoatPHP](https://github.com/OWASP/OWASPWebGoatPHP) (PHP)
 
 ### Security of CI/CD
- **DO NOT FORGET MANY DEVSECOPS PIPELINE SUFFER FROM SECURITY VULNEBILITIES**
+
+ **DO NOT FORGET MANY DEVSECOPS PIPELINE SUFFER FROM SECURITY VULNERABILITIES**
 - Github Actions
     1. [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
     2. [Github Actions Security Best Practices](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5)
