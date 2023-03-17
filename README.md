@@ -230,7 +230,16 @@ In summary, effective secrets management is essential for DevSecOps, as it prote
 
 ## OSS and Dependency management
 
-Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of continuous integration (CI). Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
+Open Source Software (OSS) and Dependency Management are two critical areas that intersect with Dependency Security Testing and Analysis in discovering supply chain attacks. Dependency management is the practice of managing and tracking the libraries, frameworks, and other components that are used to build software applications. Open Source Software (OSS) refers to software that is developed and distributed under a license that allows developers to freely modify and distribute the source code.
+
+Dependency security testing and analysis involve assessing the security of the dependencies used in software applications to identify and mitigate any vulnerabilities that could be exploited by attackers. One important aspect of this process is creating a Software Bill of Materials (SBOM), which is a list of all the components that are used in a software application. The SBOM helps identify any vulnerabilities and potential security risks in the software supply chain.
+
+Following dependency scanning, also known as Software Composition Analysis (SCA), is a critical part of continuous integration (CI). CI is the practice of integrating code changes into a shared repository frequently, allowing developers to detect and resolve issues early in the development process. SCA involves scanning and analyzing the source code and libraries used in the software application to identify any known vulnerabilities or potential security risks.
+
+Data series and data trends tracking should also be a part of CI tooling. This allows developers to track changes in the dependencies and the software supply chain over time, enabling them to identify and address any security risks that may arise.
+
+In summary, Dependency security testing and analysis is critical for discovering supply chain attacks. SBOM creation and following dependency scanning is a crucial part of continuous integration. It is essential to know what you produce and what you consume in the context of libraries and packages, and data series and data trends tracking should be part of CI tooling.
+
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -254,7 +263,15 @@ Dependency security testing and analysis is very important part of discovering s
 
 ## Supply chain specific tools 
 
-Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (continuous integration) must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integrity hashes / or attestation must be performed. 
+The text highlights the vulnerability of supply chains to attacks and emphasizes the importance of libraries and continuous integration (CI) in ensuring the security of the final product.
+
+The use of libraries plays a significant role in the security of the final product, as libraries are a common target for attackers to inject malicious code. Therefore, it is crucial to carefully select and evaluate the libraries used in the supply chain to avoid any security loopholes.
+
+CI, on the other hand, involves regularly integrating and testing changes to the codebase, which is important for detecting any potential security breaches. The text suggests that monitoring the CI process should be done inside the tasks and jobs in pipeline steps to ensure continuous security checks throughout the development process.
+
+Furthermore, to ensure the integrity of the final product, the text recommends storing integrity checks outside the system and performing several validation runs with comparison of integrity hashes or attestation. This is important because integrity checks help verify that the codebase has not been tampered with or compromised during the development process.
+
+Overall, the text emphasizes the importance of careful library selection, continuous integration monitoring, and integrity checks to ensure the security of the final product in the supply chain.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
