@@ -23,7 +23,7 @@ Take a look at links for detailed explanitation on DevSecOps:
 # DevSecOps Security Checklist
 
  ![checklist](./imgs/check.png)
-## [Checklist Link](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf)
+## [Checklist Link](./devsecops-security-checklist.pdf)
 ### 1. Design
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
