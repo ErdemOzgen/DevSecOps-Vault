@@ -14,8 +14,12 @@ By implementing DevSecOps practices, organizations can improve their overall sec
 
 Take a look at links for detailed explanitation on DevSecOps:
 
-* (Redhat)[https://www.redhat.com/en/topics/devops/what-is-devsecops]
-* (IBM)[https://www.ibm.com/cloud/learn/devsecops]
-* (Synk)[https://snyk.io/series/devsecops/]
-* (Synopsys)[https://www.synopsys.com/glossary/what-is-devsecops.html]
-* (Spacelift)[https://spacelift.io/blog/what-is-devsecops]
+* [Redhat definitions](https://www.redhat.com/en/topics/devops/what-is-devsecops)
+* [IBM definitions](https://www.ibm.com/cloud/learn/devsecops)
+* [Synk definitions](https://snyk.io/series/devsecops/)
+* [Synopsys definitions](https://www.synopsys.com/glossary/what-is-devsecops.html)
+* [Spacelift definitions](https://spacelift.io/blog/what-is-devsecops)
+
+# TOOLS for DevSecOps
+
+![img](imgs/devsecopslife.png)
