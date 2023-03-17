@@ -312,7 +312,13 @@ OWASP curated list of SAST tools : https://owasp.org/www-community/Source_Code_A
 
 ## DAST
 
-Dynamic application security testing (DAST) is a type of application testing (in most cases web) that checks your application from the outside by active communication and analysis of the responses based on injected inputs. DAST tools rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running and is actively deployed on the server (or serverless function).
+DAST tools operate by simulating an attack on an application in order to identify vulnerabilities. The tools send requests to the application and analyze the responses for any potential security issues. These requests may include inputs such as SQL injection or cross-site scripting attacks, and the tool will check if the application responds in a way that indicates a security issue.
+
+Unlike Static Application Security Testing (SAST), which analyzes the code without executing it, DAST tools test applications while they are running and actively deployed on a server or serverless function. This allows DAST tools to identify vulnerabilities that are specific to the environment in which the application is deployed.
+
+DAST tools rely on inputs and outputs to operate. By injecting inputs into the application and analyzing its outputs, DAST tools can identify potential security issues that may be exploitable by attackers. DAST tools can also provide feedback on the severity of the vulnerabilities found, allowing developers to prioritize and address them accordingly.
+
+Overall, DAST tools are an important part of an application's security testing process, particularly for web applications. They operate by simulating attacks on the application, and by analyzing the responses, they can identify potential security issues that could be exploited by attackers. By relying on inputs and outputs, DAST tools can provide detailed feedback on the severity of the vulnerabilities found, allowing developers to prioritize and address them.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
