@@ -62,3 +62,23 @@ Overall, DevSecOps pre-commit tools play a critical role in ensuring that securi
 | **DevSkim** | [https://github.com/microsoft/DevSkim](https://github.com/microsoft/DevSkim) |  DevSkim is a framework of IDE extensions and language analyzers that provide inline security analysis |![DevSkim](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge)|
 | **detect-secrets** | [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) |  Detects secrets in your codebase |![DevSkim](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge)| 
 | **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
+
+
+## Secrets management 
+
+#TODO: Add explaination here
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **GitLeaks** | [https://github.com/zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) | Gitleaks is a scanning tool for detecting hardcoded secrets  |![GitLeaks](https://img.shields.io/github/stars/zricethezav/gitleaks?style=for-the-badge) | 
+| **ggshield** | [https://github.com/gitguardian/ggshield](https://github.com/gitguardian/ggshield) | GitGuardian shield (ggshield) is a CLI application that runs in your local environment or in a CI environment and helps you detect more than 350+ types of secrets and sensitive files.  |![ggshield](https://img.shields.io/github/stars/gitguardian/ggshield?style=for-the-badge) |
+| **TruffleHog** | [https://github.com/trufflesecurity/truffleHog](https://github.com/trufflesecurity/truffleHog) | TruffleHog is a scanning tool for detecting hardcoded secrets  |![TruffleHog](https://img.shields.io/github/stars/trufflesecurity/truffleHog?style=for-the-badge) |
+| **Hashicorp Vault** | [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault) | Hashicorp Vault secrets management  |![Vault](https://img.shields.io/github/stars/hashicorp/vault?style=for-the-badge) |
+| **Mozilla SOPS** | [https://github.com/mozilla/sops ](https://github.com/mozilla/sops ) | Mozilla Secrets Operations  |![SOPS](https://img.shields.io/github/stars/mozilla/sops?style=for-the-badge) |
+| **AWS secrets manager GH action** | [https://github.com/marketplace/actions/aws-secrets-manager-actions](https://github.com/marketplace/actions/aws-secrets-manager-actions)| AWS secrets manager [docs](https://aws.amazon.com/secrets-manager/) |![AWS Secrets manager action](https://img.shields.io/github/stars/say8425/aws-secrets-manager-actions?style=for-the-badge)|  
+| **GitRob** | [https://github.com/michenriksen/gitrob](https://github.com/michenriksen/gitrob) | Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github  |![GitRob](https://img.shields.io/github/stars/michenriksen/gitrob?style=for-the-badge)|
+| **git-wild-hunt** | [https://github.com/d1vious/git-wild-hunt](https://github.com/d1vious/git-wild-hunt ) | A tool to hunt for credentials in the GitHub |![git-wild-hunt](https://img.shields.io/github/stars/d1vious/git-wild-hunt?style=for-the-badge)|
+| **aws-vault** | [https://github.com/99designs/aws-vault](https://github.com/99designs/aws-vault) | AWS Vault is a tool to securely store and access AWS credentials in a development environment |![aws-vault](https://img.shields.io/github/stars/99designs/aws-vault?style=for-the-badge)|
+| **Knox** | [https://github.com/pinterest/knox](https://github.com/pinterest/knox) | Knox is a service for storing and rotation of secrets, keys, and passwords used by other services |![Knox](https://img.shields.io/github/stars/Pinterest/Knox?style=for-the-badge)|
+| **Chef vault** | [https://github.com/chef/chef-vault](https://github.com/chef/chef-vault) |  allows you to encrypt a Chef Data Bag Item |![Chef vault](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge)|
+| **Ansible vault** | [Ansible vault docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html#ansible-vault) |  Encryption/decryption utility for Ansible data files |![Ansible vault](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge)|
