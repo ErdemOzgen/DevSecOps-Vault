@@ -12,3 +12,10 @@ DevSecOps involves the implementation of security controls throughout the develo
 
 By implementing DevSecOps practices, organizations can improve their overall security posture and reduce the risk of security breaches and vulnerabilities. This approach also helps to accelerate the delivery of secure software by integrating security into the development process, rather than treating it as a separate activity.
 
+Take a look at links for detailed explanitation on DevSecOps:
+
+* (Redhat)[https://www.redhat.com/en/topics/devops/what-is-devsecops]
+* (IBM)[https://www.ibm.com/cloud/learn/devsecops]
+* (Synk)[https://snyk.io/series/devsecops/]
+* (Synopsys)[https://www.synopsys.com/glossary/what-is-devsecops.html]
+* (Spacelift)[https://spacelift.io/blog/what-is-devsecops]
