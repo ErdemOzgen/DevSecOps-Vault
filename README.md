@@ -22,7 +22,8 @@ Take a look at links for detailed explanitation on DevSecOps:
 
 # DevSecOps Security Checklist
 
- ![checklist](./imgs/check.png)
+<img src="./imgs/check.png" alt="Image" width="50%">
+
 ## [Checklist Link](./devsecops-security-checklist.pdf)
 ### 1. Design
   - Development Lifecycle
