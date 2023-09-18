@@ -28,4 +28,4 @@ jobs:
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           markdownFiles: '*.md' # Adjust the pattern to match your Markdown files
-          outputPath: 'output'   # Adjust the output path as needed
+          outputPath: '.'   # Adjust the output path as needed
