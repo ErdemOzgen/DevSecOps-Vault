@@ -25,10 +25,10 @@ jobs:
         run: npm install
 
       - name: Create output directory
-        run: mkdir -p /github/workspace/pdfs
+        run: mkdir -p ./pdfs
 
       - name: Convert Markdown to PDF and HTML
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_dir: . # Adjust if your Markdown files are in a different directory
-          output_dir: /github/workspace/pdfs # Adjust the output directory as needed
+          output_dir: ./pdfs # Adjust the output directory as needed
