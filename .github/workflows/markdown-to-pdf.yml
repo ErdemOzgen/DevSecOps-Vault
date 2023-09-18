@@ -16,10 +16,11 @@ jobs:
         sudo apt-get update -y
         sudo apt-get install -y pandoc
         sudo apt-get install -y texlive-xetex
+        sudo apt-get install -y librsvg2-bin
 
     - name: Convert README to PDF
       run: |
-        pandoc README.md -o README.pdf
+        pandoc README.md -o README.pdf --pdf-engine=xelatex
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
