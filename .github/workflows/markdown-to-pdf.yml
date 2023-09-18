@@ -1,34 +1,32 @@
-name: Markdown to PDF and HTML
+# .github/workflows/convert-to-pdf.yml
 
+name: Docs to PDF
+# This workflow is triggered on pushes to the repository.
 on:
   push:
     branches:
-      - main # Change to your default branch if needed
-  pull_request:
-    branches:
-      - main # Change to your default branch if needed
+      - main
+    # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
+    paths:
+      - 'docs/**.md'
+      - 'docs/images/**'
 
 jobs:
-  convert:
+  converttopdf:
+    name: Build PDF
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          node-version: 14
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Create output directory
-        run: mkdir -p output
-
-      - name: Convert Markdown to PDF and HTML
-        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+          input_dir: README.md
+          output_dir: pdfs
+          #images_dir: docs/images
+          # for example <img src="./images/file-name.png">
+          image_import: ./imgs
+          # Default is true, can set to false to only get PDF files
+          build_html: true
+      - uses: actions/upload-artifact@v3
         with:
-          input_dir: . # Adjust if your Markdown files are in a different directory
-          output_dir: output # Adjust the output directory as needed
+          name: README.md
+          path: pdfs
