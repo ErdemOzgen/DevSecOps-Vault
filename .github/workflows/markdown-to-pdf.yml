@@ -1,34 +1,27 @@
-name: Markdown to PDF and HTML
-
+name: Generate PDF from README
 on:
   push:
     branches:
-      - main # Change to your default branch if needed
-  pull_request:
-    branches:
-      - main # Change to your default branch if needed
+      - main
 
 jobs:
-  convert:
+  generate_pdf:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y pandoc
 
-      - name: Install dependencies
-        run: npm install
+    - name: Convert README to PDF
+      run: |
+        pandoc README.md -o README.pdf
 
-      - name: Create output directory
-        run: mkdir -p ./pdfs
-
-      - name: Convert Markdown to PDF and HTML
-        uses: BaileyJM02/markdown-to-pdf@v1.2.0
-        with:
-          input_dir: . # Adjust if your Markdown files are in a different directory
-          output_dir: ./pdfs # Adjust the output directory as needed
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf-artifact
+        path: README.pdf
