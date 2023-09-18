@@ -1,26 +1,34 @@
-name: Docs to PDF
+name: Markdown to PDF and HTML
 
 on:
   push:
     branches:
-      - main
-    paths:
-      - '**/**.md'
+      - main # Change to your default branch if needed
+  pull_request:
+    branches:
+      - main # Change to your default branch if needed
 
 jobs:
-  converttopdf:
-    name: Build PDF
+  convert:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          input_dir: . # The directory where your Markdown files are located
-          output_dir: pdfs # The directory where the PDFs will be generated
-          image_import: ./imgs # The directory containing images referenced in Markdown files
+          node-version: 14
 
-      - uses: actions/upload-artifact@v3
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create output directory
+        run: mkdir -p pdfs
+
+      - name: Convert Markdown to PDF and HTML
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
-          name: docs
-          path: pdfs # Upload the generated PDFs as artifacts
+          input_dir: . # Adjust if your Markdown files are in a different directory
+          output_dir: pdfs # Adjust the output directory as needed
