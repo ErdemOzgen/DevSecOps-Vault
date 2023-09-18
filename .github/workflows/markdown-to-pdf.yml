@@ -24,8 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Create output directory
+        run: mkdir -p output
+
       - name: Convert Markdown to PDF and HTML
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
-          markdownFiles: '*.md' # Adjust the pattern to match your Markdown files
-          outputPath: '.'   # Adjust the output path as needed
+          input_dir: . # Adjust if your Markdown files are in a different directory
+          output_dir: output # Adjust the output directory as needed
