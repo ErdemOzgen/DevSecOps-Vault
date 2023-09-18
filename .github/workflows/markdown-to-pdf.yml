@@ -16,7 +16,7 @@ jobs:
 
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: docs # The directory where your Markdown files are located
+          input_dir: . # The directory where your Markdown files are located
           output_dir: pdfs # The directory where the PDFs will be generated
           image_import: ./imgs # The directory containing images referenced in Markdown files
 
