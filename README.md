@@ -188,6 +188,7 @@ Overall, DevSecOps pre-commit tools play a critical role in ensuring that securi
 | **DevSkim** | [https://github.com/microsoft/DevSkim](https://github.com/microsoft/DevSkim) |  DevSkim is a framework of IDE extensions and language analyzers that provide inline security analysis |![DevSkim](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge)|
 | **detect-secrets** | [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) |  Detects secrets in your codebase |![DevSkim](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge)| 
 | **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
+| **Codemodder** | [https://codemodder.io](https://codemodder.io) | Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems. |![Codemodder](https://img.shields.io/github/stars/Pixee/codemodder-java?style=for-the-badge)|
 
 
 ## Secrets management 
