@@ -30,6 +30,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 | **purpleteam** | [GitHub](https://github.com/purpleteam-labs/purpleteam) | Self-hosted DAST automation tool designed to integrate into pipelines and test APIs, web apps, and endpoints. | ![Purpleteam](https://img.shields.io/github/stars/purpleteam-labs/purpleteam?style=for-the-badge) |
 | **OSS-Fuzz** | [GitHub](https://github.com/google/oss-fuzz) | Continuous fuzzing platform by Google to find memory and logic bugs in C/C++/Rust apps. Ideal for libraries and backend services. | ![OSS-Fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) |
 | **Nikto** | [GitHub](https://github.com/sullo/nikto) | Web server vulnerability scanner that detects outdated components, dangerous files, and security headers. | ![Nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) |
+| **Darkmoon** | [GitHub](https://github.com/ASCIT31/Dark-Moon) | Open source (GPLv3) autonomous penetration testing platform where 50 specialist agents over MCP drive 50+ offensive tools across web, API, Active Directory, Kubernetes and cloud with reproducible proof of exploitation. Self hosted. | ![Darkmoon](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=for-the-badge) |
 | **Skipfish** | [Archived](https://code.google.com/archive/p/skipfish/) | Fast web app security recon tool from Google. Useful for brute-force fuzzing and link crawling. | ![Skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) |
 
 
